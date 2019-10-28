@@ -1,0 +1,12 @@
+# General
+.DS_store
+thumbs.db
+.AppleDouble
+.LSOverride
+.ipynb_checkpoints
+
+# Thumbnails
+._*
+
+# Volume root files
+.Trashes
