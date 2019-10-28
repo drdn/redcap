@@ -48,7 +48,7 @@ do
 
         [Ss]* ) echo "Checking lock status of records"
             while read LINE
-                do curl -v -d $DATA$LINE $URL$FORM$"status"
+                do curl -v -d $DATA$LINE $URL$FORM"status"
             done < ids.txt
             break;;
 
